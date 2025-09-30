@@ -1,0 +1,84 @@
+.container{
+    display:flex;
+}
+
+img{
+    width:180x;
+    height:180px;
+    border-radius:50%;
+    object-fit: cover;
+    border:5px solid black;
+    box-shadow :5px 9px;
+    
+   }
+
+
+.leftsection{
+    flex:1;
+    background-color:teal;
+    padding:30px 40px;
+   
+
+}
+
+.skills h3{
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.language h3{
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.contact h3{
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.hobbies h3{
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+
+
+
+.rightsection{
+    flex:3;
+    padding:30px 40px;
+    width:65%;
+    height:45%
+}
+.rightsection h2{
+    font-size:20px;
+}
+
+.rightsection h3{
+    font-size:15px;
+   color:steelblue;
+}
+
+
+
+.rightsection h4{
+    font-size:10pxpx;
+    color:steelblue;
+}
+
+.rightsection p{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.profile p{
+    margin:10px;
+    line-height:1.5;
+}
+
+ul li{
+    margin-bottom:6px;
+}
